@@ -255,6 +255,6 @@ La fonctionnalité de réinitialisation du mot de passe de ce laboratoire est vu
 
 *3.1* Analyser le processus de réinitialisation de mot de passe à partir du compte contrôlé `wiener`, en utilisant Burp Suite et en examinant les requêtes/réponses.
 
-*3.2* Utiliser les inforamtions obtenues pour réinitialiser le mot de passe du compte `carlos` et accéder à ce compte pour valider le labo.
+*3.2* Utiliser les informations obtenues pour réinitialiser le mot de passe du compte `carlos` et accéder à ce compte pour valider le labo.
 
 *3.3* Examiner les facteurs qui rendent cette vulnérabilité possible et proposer des contre-mesures appropriées.
