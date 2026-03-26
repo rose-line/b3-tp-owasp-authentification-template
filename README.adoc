@@ -197,15 +197,14 @@ Pour inclure une image, vous pouvez utiliser la syntaxe suivante : `image::scr
 
 Pour écrire au format « code » en asciidoc (commandes, code source, requêtes HTTP brutes...) , il suffit d'encadrer le texte avec des balises de code (les tripe-backticks arkdown sont aussi acceptées en Asciidoc) :
 
+```
 [source]
 ----
- [source]
- ----
- GET /success.txt?ipv4 HTTP/1.1
- Host: detectportal.firefox.com
- User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101
- ----
+GET /success.txt?ipv4 HTTP/1.1
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101
 ----
+```
 
 Vous ferez des _commits/push_ réguliers avec l'avancement des questions/réponses. Vous vérifierez sur le dépôt GitHub que vos réponses sont bien visibles, lisibles, complètes et correctement formatées, et que les captures d'écran sont claires et bien affichées.
 
@@ -219,7 +218,7 @@ L'objectif est d'identifier un identifiant valide, puis de deviner son mot de pa
 
 Ce laboratoire présente des vulnérabilités liées à l'énumération des noms d'utilisateurs et à la force brute des mots de passe. Un compte y est accessible à partir d'un identifiant facile à deviner et d'un mot de passe faible, tous deux présents dans des dictionnaires dédiés.
 
-*1.1* Identifier (au niveau HTTP, en utilisant Burp et en examinant les requêtes/réponses) comment le client envoie les données d'identification et comment le serveur répond à différentes tentatives de connexion
+*1.1* Identifier (au niveau HTTP, en utilisant Burp et en examinant les requêtes/réponses) comment le client envoie les données d'identification et comment le serveur répond à différentes tentatives de connexion.
 
 *1.2* Utiliser _Burp Intruder_ pour automatiser les tentatives de connexion en utilisant la liste de logins fournie comme _payload_.
 
